@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="breakpoint.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Imam<span>Ninja.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Imam Ibrahim</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+         <div class="social-media">
+          <a href="https://www.tiktok.com/@ninja_lanang"><i class="bx bxl-tiktok"></i></a>
+          <a href="https://instagram.com/lanang_ninjazboy"><i class="bx bxl-instagram"></i></a>
+          <a href="https://youtube.com/channel/BocahLanang"><i class="bx bxl-youtube"></i></a>
+          <a href="https://wa.me/628995260967"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://lanang31.blogspot.com"><i class="bx bxl-blogger"></i></a>
+        </div>
+      </div>
+
+     
+      <div class="home-img">
+        <img src="logo.png" alt="home" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="logo.png" alt="about" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+        Halo! Saya Imam seorang web developer dengan fokus pada tampilan yang responsif dan pengalaman pengguna yang menyenangkan. Saya senang memecahkan masalah melalui desain dan teknologi.
+        Dengan pengalaman dalam HTML,CSS,JS,CI,PHP, saya selalu berusaha memberikan hasil terbaik, kreatif, dan berdampak positif.
+        Bagi saya, setiap proyek adalah kesempatan untuk belajar, berkembang, dan menciptakan sesuatu yang bermanfaat bagi banyak orang.
+        </p>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Front End</h3>
+          <p>
+            Saya adalah seorang Front-End Developer yang berfokus pada tampilan antarmuka yang interaktif, responsif, dan user-friendly.
+            Dengan keahlian di bidang HTML, CSS, JavaScript, 
+            saya senang mengubah desain menjadi pengalaman digital yang nyata.
+            Bagi saya, keindahan web bukan hanya dari tampilannya, tapi dari bagaimana pengguna merasa nyaman saat menggunakannya.
+          </p>  
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-data"></i>
+          <h3>Back End</h3>
+          <p>
+            Sebagai seorang Back-End Developer, saya berfokus pada bagaimana sebuah aplikasi bekerja di balik layar.
+            Saya memiliki pengalaman dalam mengelola database, menggunakan MySQL.
+            Tujuan saya adalah menciptakan sistem yang stabil, aman, dan efisien, agar pengguna mendapatkan pengalaman yang cepat dan andal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+       <div class="portfolio-box project" data-images='[
+          "1.png",
+          "2.png",
+          "36.png", 
+          "4.png",
+          "5.png",
+          "6.png"
+        ]' aria-label="Project 1 - Click to open gallery">
+          <img src="1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Project Kas Buku</h4>
+            <p>Mobile app screens — click to view screenshots</p>
+            <button class="open-gallery btn" type="button">View Screenshots</button>
+          </div>
+        </div>
+
+        <div class="portfolio-box project" data-images='[
+         "7.png",
+         "8.png",
+         "9.png",
+         "10.png",
+         "11.png",
+         "12.png",
+         "13.png",
+         "14.png",
+         "15.png",
+         "16.png"
+        ]' aria-label="Project 2 - Click to open gallery">
+          <img src="7.png" alt="Project 2 screenshot 1" />
+          <div class="portfolio-layer">
+            <h4>Project Sejarah Perang Ambarawa</h4>
+            <p>Ecommerce mockup — click to view screenshots</p>
+            <button class="open-gallery btn" type="button">View Screenshots</button>
+          </div>
+        </div>
+
+        <div class="portfolio-box project" data-images='[
+          "17.png",
+          "18.png",
+          "19.png",
+          "20.png"
+        ]' aria-label="Project 3 - Click to open gallery">
+          <img src="17.png" alt="Project 2 screenshot 1" />
+          <div class="portfolio-layer">
+            <h4>Project Online Shop</h4>
+            <p>Ecommerce mockup — click to view screenshots</p>
+            <button class="open-gallery btn" type="button">View Screenshots</button>
+          </div>
+        </div>
+
+      <div class="portfolio-box project" data-images='[
+          "21.png",
+          "22.png",
+          "23.png",
+          "24.png",
+          "25.png",
+          "26.png",
+          "27.png",
+          "28.png",
+          "29.png",
+          "30.png",
+          "31.png",
+          "32.png",
+          "33.png",
+          "34.png",
+          "35.png"
+        ]' aria-label="Project 3 - Click to open gallery">
+          <img src="21.png" alt="Project 2 screenshot 1" />
+          <div class="portfolio-layer">
+            <h4>Project CMS</h4>
+            <p>Ecommerce mockup — click to view screenshots</p>
+            <button class="open-gallery btn" type="button">View Screenshots</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="gallery-modal" style="display:none;position:fixed;inset:0;justify-content:center;align-items:center;z-index:9999;">
+        <div id="gallery-backdrop" style="position:absolute;inset:0;background:rgba(0,0,0,.7)"></div>
+        <div id="gallery-inner" style="position:relative;max-width:100%;max-height:100%;display:flex;align-items:center;gap:1rem;z-index:1;flex-direction:row;padding:1rem;">
+          <button id="gallery-prev" class="btn" aria-label="Previous" type="button">‹</button>
+          <div style="display:flex;align-items:center;justify-content:center;max-width:90vw;max-height:90vh;width:100%;">
+            <img id="gallery-image" src="" alt="Project screenshot" style="max-width:100%;max-height:90vh;border-radius:.5rem;box-shadow:0 0 1rem rgba(0,0,0,.5);touch-action: none;"/>
+          </div>
+          <button id="gallery-next" class="btn" aria-label="Next" type="button">›</button>
+          <button id="gallery-close" class="btn" aria-label="Close gallery" type="button" style="position:absolute;top:1rem;right:1rem;">✕</button>
+        </div>
+    </section>
+
+    <div class="learn-animation" aria-hidden="false">
+        <svg viewBox="0 0 800 400" class="learn-svg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animasi orang belajar coding">
+          <rect x="0" y="320" width="800" height="80" fill="#2c323a"/>
+          <rect x="260" y="180" width="280" height="12" rx="6" fill="#111214"/>
+          <rect x="260" y="80" width="280" height="110" rx="8" fill="#0b0f11"/>
+          <g class="code-lines" transform="translate(270,90)" fill="none" stroke-linecap="round">
+            <rect class="line l1" x="0" y="8" width="220" height="8" rx="4" fill="#0ff" opacity="0.95"/>
+            <rect class="line l2" x="0" y="26" width="180" height="8" rx="4" fill="#9ef" opacity="0.9"/>
+            <rect class="line l3" x="0" y="44" width="200" height="8" rx="4" fill="#7ff" opacity="0.85"/>
+            <rect class="cursor" x="222" y="8" width="6" height="8" rx="2" fill="#0ff"/>
+          </g>
+
+          <g class="person" transform="translate(120,90)">
+            <ellipse cx="180" cy="200" rx="70" ry="90" fill="#2b2f36"/>
+            <circle cx="180" cy="110" r="36" fill="#ffd8b6"/>
+            <path d="M150 100 q30 -30 60 0 v6 q-30 -18 -60 -6z" fill="#1b1f23"/>
+            <g class="arm-left" transform="translate(0,0)">
+              <rect x="120" y="170" width="18" height="60" rx="9" fill="#ffd8b6" transform="rotate(-20 129 200)"/>
+            </g>
+            <g class="arm-right" transform="translate(0,0)">
+              <rect x="220" y="170" width="18" height="60" rx="9" fill="#ffd8b6" transform="rotate(15 229 200)"/>
+            </g>
+            <path d="M120 170 q60 40 120 0 q-10 80 -60 80 q-40 -2 -60 -80z" fill="#1167b1"/>
+          </g>
+
+          <rect x="300" y="192" width="200" height="6" rx="3" fill="#111214"/>
+        </svg>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy;  2025 IMAM | Dibuat dengan ❤️</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js.js"></script>
+  </body>
+</html>
